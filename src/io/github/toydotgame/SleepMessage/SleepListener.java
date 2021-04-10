@@ -1,4 +1,4 @@
-package io.github.toydotgame;
+package io.github.toydotgame.SleepMessage;
 
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;

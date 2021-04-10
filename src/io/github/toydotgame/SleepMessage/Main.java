@@ -1,4 +1,4 @@
-package io.github.toydotgame;
+package io.github.toydotgame.SleepMessage;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
