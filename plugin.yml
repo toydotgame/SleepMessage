@@ -1,6 +1,6 @@
 name: SleepMessage
 main: io.github.toydotgame.SleepMessage.Main
-version: 1.0
+version: 1.1
 description: Server-wide sleeping alerts for when a player gets in a bed.
 author: toydotgame
 prefix: Sleep Messages
