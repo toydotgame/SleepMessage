@@ -11,6 +11,13 @@ public class SleepListener implements Listener {
 	public void onPlayerSleep(PlayerBedEnterEvent bedEnterEvent) {
 		Player player = bedEnterEvent.getPlayer();
 		String playerNameString = player.getName();
-		Bukkit.broadcastMessage(playerNameString + " is sleeping in a bed. To skip to dawn, all players need to sleep in beds at the same time.");
+		
+		for(Player iteratePlayer : Bukkit.getServer().getOnlinePlayers()) {
+			if(iteratePlayer != player) {
+				iteratePlayer.sendMessage(playerNameString + " is sleeping in a bed. To skip to dawn, all players need to sleep in beds at the same time.");
+			} else if(iteratePlayer == player) {
+				player.sendMessage("You are sleeping in a bed. To skip to dawn, all players need to sleep in beds at the same time.");
+			}
+		}
 	}
 }
