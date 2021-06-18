@@ -10,7 +10,5 @@ In fact, this plugin tries to be the best Java Minecraft replication of what Con
 ![](https://i.ytimg.com/vi/oinbQVRNNII/maxresdefault.jpg)
 
 #### Java Edition With This Spigot Plugin:<br>
-##### Any online player who is not sleeping:<br>
 ![](https://i.imgur.com/WrWrRl3.png)
-##### Player who is sleeping:<br>
 ![](https://i.imgur.com/xEI4Lvf.png)
